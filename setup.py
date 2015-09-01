@@ -35,6 +35,7 @@ def install(appname):
                      'Programming Language :: Python :: 3.2',
                      'Programming Language :: Python :: 3.3'],
           py_modules = ['spam_checker'],
+          install_requires = ['gmail-client'],
           author = 'Terry Yin',
           author_email = 'terry@odd-e.com',
           scripts = ['spam-checker']
